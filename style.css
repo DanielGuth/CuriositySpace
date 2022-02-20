@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(92, 11, 92);
+}
+#MAIN{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+
+}
+.Title{
+    text-shadow: 1px 1px 1px white;
+}
+
+.Output{
+    background-color: rgb(239, 248, 255);
+    height: 400px;
+    padding-top:250px;
+    margin: 2%;
+    font-size: 2em;
+
+}
+.Button{
+    margin: 20px auto;
+    height: 60px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+
+}
+.Button:hover{
+    transition: 0.5s;
+    background-color: rgb(184, 239, 184);
+}
+@media (min-width: 1200px) {
+    body{
+        transition: 1s;
+        background-color: rgb(103, 38, 104);
+    }
+
+    
+}
